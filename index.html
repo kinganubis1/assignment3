@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="./css/font.css" />
+        <link rel="stylesheet" href="./css/common.css" />
+
+        <!-- Scripts -->
+
+        <title>Assignment 03</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- banner, give h1 and span in block "desc" -->
+            <div id="banner" style="padding: 50px">
+                <div class="desc">
+                    <h1>Hồ Đăng Vũ</h1>
+                    <span>Full Stack Developer</span>
+                </div>
+            </div>
+            <!-- add images individual -->
+            <section id="nav-bar">
+                <nav class="container">
+                    <div class="wrap">
+                        <div class="left">
+                            <a href="#"><i class="icon-user"></i>Thông tin</a>
+                            <a href="#"
+                                ><i class="icon-doc-text-inv"></i>Lý lịch</a
+                            >
+                        </div>
+                        <img src="./images/avatar.jpg" alt="avatar" />
+                        <div class="right">
+                            <a href="#"
+                                ><i class="icon-mail-alt"></i>Chứng chỉ</a
+                            >
+                            <a href="#"><i class="icon-star-1"></i>Dự Án</a>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+            <!-- about -->
+            <section id="about" class="bg-grey">
+                <div class="container">
+                    <div id="target">
+                        <h1 class="section-title">Mục tiêu nghề nghiệp</h1>
+                        <p>
+                            Là một sinh viên đã hoàn thành chương trình chứng
+                            chỉ Doanh Nghiệp của FUNiX. Em mong muốn mình sẽ
+                            được làm việc với vị trí Java Developer, có thể vận
+                            dụng những kiến thức đã được trau dồi và không ngừng
+                            học hỏi để phát triển bản thân, cũng như hoàn thành
+                            tốt nhất công việc được giao.
+                        </p>
+                    </div>
+                    <div id="personal-info" style="margin-top: 20px">
+                        <h1 class="section-title">Thông tin cá nhân</h1>
+                        <!-- add form show infor student -->
+                        <form action="" class="form-info" novalidate>
+                            <div class="form-group">
+                                <input
+                                    id="text-email"
+                                    class="form-control"
+                                    type="text"
+                                    placeholder="Enter email"
+                                />
+                                <p class="notify">Hãy nhập email để xác thực</p>
+                                <button type="submit" class="btn btn-info">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                        <!-- block hidden -->
+                        <div class="wrap-info hidden">
+                            <ul class="mt-40 info">
+                                <li><span>Giới tính</span> : Nam</li>
+                                <li><span>Ngày sinh</span> : 02/08/1992</li>
+                                <li>
+                                    <span>Điện thoại</span> : (+84) 384389326
+                                </li>
+                                <li>
+                                    <span>Email</span> :
+                                    vuhdFX20976@funix.edu.vn
+                                </li>
+                                <li>
+                                    <span>Địa chỉ</span> : Thành Phố Huế, Việt
+                                    Nam
+                                </li>
+                                <li>
+                                    <span>Website</span> : https://dangvu.tech
+                                </li>
+                            </ul>
+                            <!-- add "social" block -->
+                            <div class="social">
+                                <ul>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="icon-twitter"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="icon-facebook"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="icon-gplus"></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            ><i class="icon-linkedin"></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- job info -->
+            <section id="job-info">
+                <!-- add block show destop -->
+                <div class="container destop-devices">
+                    <div class="item" style="margin-top: 20px">
+                        <!-- give <h1> and <i> in block "title" to use flex -->
+                        <div class="title">
+                            <h1>Kinh nghiệm</h1>
+                            <i class="ic-toolbox"></i>
+                        </div>
+                        <div class="desc view-content" id="toggle-1">
+                            <div class="content-info">
+                                <p>Team connection</p>
+                                <p class="time">
+                                    10/2021 - <span>Hiện tại</span>
+                                </p>
+                                <p>
+                                    - Xây dựng, phát triển Website dựa trên PHP,
+                                    Wordpress, Laravel.
+                                </p>
+                                <p>
+                                    - Xây dựng plusgin đơn giản bằng Wordpress.
+                                </p>
+                                <p>
+                                    - Phân tích và thiết kế Database, sử dụng
+                                    các hệ quản trị CSDL.
+                                </p>
+                            </div>
+                            <div class="content-info">
+                                <p>Công ty Fanmedia</p>
+                                <p class="time">09/2020 - 10/2021</p>
+                                <p>
+                                    - Xây dựng, phát triển Website dựa trên
+                                    thiết kế và yêu cầu, sủ dụng PHP và
+                                    Wordpress.
+                                </p>
+                                <p>- biết và sử dụng cơ bản photoshop.</p>
+                            </div>
+                        </div>
+                        <!-- add block btn view -->
+                        <div class="wrap-view">
+                            <span
+                                class="btn-view active"
+                                data-container="toggle-1"
+                            >
+                                <i
+                                    class="fa fa-caret-down"
+                                    aria-hidden="true"
+                                ></i
+                                >View More
+                            </span>
+                        </div>
+                    </div>
+                    <div class="item" style="margin-top: 20px">
+                        <div class="title">
+                            <h1>Học vấn</h1>
+                            <i class="ic-pencil"></i>
+                        </div>
+                        <div class="desc view-content" id="toggle-2">
+                            <div class="content-info">
+                                <p>Nông Lâm Huế</p>
+                                <p class="time">09/2011 - 10/2015</p>
+                                <p>- Tốt nghiệp chuyên ngành của trường.</p>
+                                <p>- GPA: 3.5.</p>
+                            </div>
+                            <div class="content-info">
+                                <p>Gia Hội</p>
+                                <p class="time">07/2007 - 10/2010</p>
+                                <p>
+                                    - Tốt nghiệp trung học phổ thông của trường.
+                                </p>
+                                <p>- GPA: 8.</p>
+                            </div>
+                            <div class="content-info">
+                                <p>Tố Hữu</p>
+                                <p class="time">05/2004 - 10/2007</p>
+                                <p>- Tốt nghiệp trung học cơ sở của trường.</p>
+                                <p>- GPA: 9.</p>
+                            </div>
+                        </div>
+                        <!-- add block btn view -->
+                        <div class="wrap-view">
+                            <span
+                                class="btn-view active"
+                                data-container="toggle-2"
+                            >
+                                <i
+                                    class="fa fa-caret-down"
+                                    aria-hidden="true"
+                                ></i
+                                >View More
+                            </span>
+                        </div>
+                    </div>
+                    <div class="item" style="margin-top: 20px">
+                        <div class="title">
+                            <h1>Hoạt động</h1>
+                            <i class="ic-toolbox"></i>
+                        </div>
+                        <div class="desc view-content" id="toggle-3">
+                            <div class="content-info">
+                                <p>Tình Nguyện Xanh</p>
+                                <p class="time">09/2014 - 05/2015</p>
+                                <p>- Hỗ trợ trồng cây giúp các bản làng.</p>
+                                <p>- Nhặt rác nơi công cộng.</p>
+                            </div>
+                            <div class="content-info">
+                                <p>Gaming thi đấu vòng loại tỉnh</p>
+                                <p class="time">05/2019 - 05/2021</p>
+                                <p>- Đội trưởng liên quân.</p>
+                                <p>- Loại vòng ngoài.</p>
+                            </div>
+                        </div>
+                        <!-- add block btn view -->
+                        <div class="wrap-view">
+                            <span
+                                class="btn-view active"
+                                data-container="toggle-3"
+                            >
+                                <i
+                                    class="fa fa-caret-down"
+                                    aria-hidden="true"
+                                ></i
+                                >View More
+                            </span>
+                        </div>
+                    </div>
+                    <div class="item hobby" style="margin-top: 20px">
+                        <div class="title">
+                            <h1>Sở thích</h1>
+                            <i class="ic-telescope"></i>
+                        </div>
+                        <ul class="icon-item view-content" id="toggle-4">
+                            <li>
+                                <i class="ic-megaphone"></i>
+                                <span>Âm nhạc</span>
+                            </li>
+                            <li>
+                                <i class="ic-strategy"></i>
+                                <span>Chơi game</span>
+                            </li>
+                            <li>
+                                <i class="ic-hotairballoon"></i>
+                                <span>Du lịch</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-female" aria-hidden="true"></i>
+                                <span>Woman</span>
+                            </li>
+                        </ul>
+                        <!-- add block btn view -->
+                        <div class="wrap-view">
+                            <span
+                                class="btn-view active"
+                                data-container="toggle-4"
+                            >
+                                <i
+                                    class="fa fa-caret-down"
+                                    aria-hidden="true"
+                                ></i
+                                >View More
+                            </span>
+                        </div>
+                    </div>
+                    <div
+                        class="item language point-item"
+                        style="margin-top: 20px"
+                    >
+                        <div class="title">
+                            <h1>Ngôn ngữ</h1>
+                            <i class="ic-mic"></i>
+                        </div>
+                        <div class="wrap-content view-content" id="toggle-5">
+                            <div class="content-point">
+                                <p>Tiếng Anh - IELTS 8.0</p>
+                                <div class="point">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="content-point">
+                                <p>Tiếng Nhật - JLPT N3</p>
+                                <div class="point">
+                                    <span class="active"></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- add block btn view -->
+                        <div class="wrap-view">
+                            <span
+                                class="btn-view active"
+                                data-container="toggle-5"
+                            >
+                                <i
+                                    class="fa fa-caret-down"
+                                    aria-hidden="true"
+                                ></i
+                                >View More
+                            </span>
+                        </div>
+                    </div>
+                    <div class="item point-item" style="margin-top: 20px">
+                        <div class="title">
+                            <h1>Kỹ năng</h1>
+                            <i class="ic-tools-2"></i>
+                        </div>
+                        <div class="wrap-content view-content" id="toggle-6">
+                            <div class="content-point">
+                                <p>Wordpress CMS: Junior</p>
+                                <div class="point">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="content-point">
+                                <p>Laravel framework: fundamental</p>
+                                <div class="point">
+                                    <span class="active"></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="content-point">
+                                <p>Bootstrap: Junior</p>
+                                <div class="point">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="content-point">
+                                <p>HTML/CSS: Junior</p>
+                                <div class="point">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="content-point">
+                                <p>Javascrip: Junior</p>
+                                <div class="point">
+                                    <span class="active"></span>
+                                    <span class="active"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- add block btn view -->
+                        <div class="wrap-view">
+                            <span
+                                class="btn-view active"
+                                data-container="toggle-6"
+                            >
+                                <i
+                                    class="fa fa-caret-down"
+                                    aria-hidden="true"
+                                ></i
+                                >View More
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- add block show mobile -->
+                <div class="container mobile-devices">
+                    <div class="col-12">
+                        <div class="item" style="margin-top: 20px">
+                            <!-- give <h1> and <i> in block "title" to use flex -->
+                            <div class="title">
+                                <h1>Kinh nghiệm</h1>
+                                <i class="ic-toolbox"></i>
+                            </div>
+                            <div class="desc view-content" id="toggle-7">
+                                <div class="content-info">
+                                    <p>Team connection</p>
+                                    <p class="time">
+                                        10/2021 - <span>Hiện tại</span>
+                                    </p>
+                                    <p>
+                                        - Xây dựng, phát triển Website dựa trên
+                                        PHP, Wordpress, Laravel.
+                                    </p>
+                                    <p>
+                                        - Xây dựng plusgin đơn giản bằng
+                                        Wordpress.
+                                    </p>
+                                    <p>
+                                        - Phân tích và thiết kế Database, sử
+                                        dụng các hệ quản trị CSDL.
+                                    </p>
+                                </div>
+                                <div class="content-info">
+                                    <p>Công ty Fanmedia</p>
+                                    <p class="time">09/2020 - 10/2021</p>
+                                    <p>
+                                        - Xây dựng, phát triển Website dựa trên
+                                        thiết kế và yêu cầu, sủ dụng PHP và
+                                        Wordpress.
+                                    </p>
+                                    <p>- biết và sử dụng cơ bản photoshop.</p>
+                                </div>
+                            </div>
+                            <!-- add block btn view -->
+                            <div class="wrap-view">
+                                <span
+                                    class="btn-view active"
+                                    data-container="toggle-7"
+                                >
+                                    <i
+                                        class="fa fa-caret-down"
+                                        aria-hidden="true"
+                                    ></i
+                                    >View More
+                                </span>
+                            </div>
+                        </div>
+                        <div class="item" style="margin-top: 20px">
+                            <div class="title">
+                                <h1>Học vấn</h1>
+                                <i class="ic-pencil"></i>
+                            </div>
+                            <div class="desc view-content" id="toggle-8">
+                                <div class="content-info">
+                                    <p>Nông Lâm Huế</p>
+                                    <p class="time">09/2011 - 10/2015</p>
+                                    <p>- Tốt nghiệp chuyên ngành của trường.</p>
+                                    <p>- GPA: 3.5.</p>
+                                </div>
+                                <div class="content-info">
+                                    <p>Gia Hội</p>
+                                    <p class="time">07/2007 - 10/2010</p>
+                                    <p>
+                                        - Tốt nghiệp trung học phổ thông của
+                                        trường.
+                                    </p>
+                                    <p>- GPA: 8.</p>
+                                </div>
+                                <div class="content-info">
+                                    <p>Tố Hữu</p>
+                                    <p class="time">05/2004 - 10/2007</p>
+                                    <p>
+                                        - Tốt nghiệp trung học cơ sở của trường.
+                                    </p>
+                                    <p>- GPA: 9.</p>
+                                </div>
+                            </div>
+                            <!-- add block btn view -->
+                            <div class="wrap-view">
+                                <span
+                                    class="btn-view active"
+                                    data-container="toggle-8"
+                                >
+                                    <i
+                                        class="fa fa-caret-down"
+                                        aria-hidden="true"
+                                    ></i
+                                    >View More
+                                </span>
+                            </div>
+                        </div>
+                        <div class="item" style="margin-top: 20px">
+                            <div class="title">
+                                <h1>Hoạt động</h1>
+                                <i class="ic-toolbox"></i>
+                            </div>
+                            <div class="desc view-content" id="toggle-9">
+                                <div class="content-info">
+                                    <p>Tình Nguyện Xanh</p>
+                                    <p class="time">09/2014 - 05/2015</p>
+                                    <p>- Hỗ trợ trồng cây giúp các bản làng.</p>
+                                    <p>- Nhặt rác nơi công cộng.</p>
+                                </div>
+                                <div class="content-info">
+                                    <p>Gaming thi đấu vòng loại tỉnh</p>
+                                    <p class="time">05/2019 - 05/2021</p>
+                                    <p>- Đội trưởng liên quân.</p>
+                                    <p>- Loại vòng ngoài.</p>
+                                </div>
+                            </div>
+                            <!-- add block btn view -->
+                            <div class="wrap-view">
+                                <span
+                                    class="btn-view active"
+                                    data-container="toggle-9"
+                                >
+                                    <i
+                                        class="fa fa-caret-down"
+                                        aria-hidden="true"
+                                    ></i
+                                    >View More
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="item hobby" style="margin-top: 20px">
+                            <div class="title">
+                                <h1>Sở thích</h1>
+                                <i class="ic-telescope"></i>
+                            </div>
+                            <ul class="icon-item view-content" id="toggle-10">
+                                <li>
+                                    <i class="ic-megaphone"></i>
+                                    <span>Âm nhạc</span>
+                                </li>
+                                <li>
+                                    <i class="ic-strategy"></i>
+                                    <span>Chơi game</span>
+                                </li>
+                                <li>
+                                    <i class="ic-hotairballoon"></i>
+                                    <span>Du lịch</span>
+                                </li>
+                                <li>
+                                    <i
+                                        class="fa fa-female"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <span>Woman</span>
+                                </li>
+                            </ul>
+                            <!-- add block btn view -->
+                            <div class="wrap-view">
+                                <span
+                                    class="btn-view active"
+                                    data-container="toggle-10"
+                                >
+                                    <i
+                                        class="fa fa-caret-down"
+                                        aria-hidden="true"
+                                    ></i
+                                    >View More
+                                </span>
+                            </div>
+                        </div>
+                        <div
+                            class="item language point-item"
+                            style="margin-top: 20px"
+                        >
+                            <div class="title">
+                                <h1>Ngôn ngữ</h1>
+                                <i class="ic-mic"></i>
+                            </div>
+                            <div
+                                class="wrap-content view-content"
+                                id="toggle-11"
+                            >
+                                <div class="content-point">
+                                    <p>Tiếng Anh - IELTS 8.0</p>
+                                    <div class="point">
+                                        <span class="active"></span>
+                                        <span class="active"></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="content-point">
+                                    <p>Tiếng Nhật - JLPT N3</p>
+                                    <div class="point">
+                                        <span class="active"></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- add block btn view -->
+                            <div class="wrap-view">
+                                <span
+                                    class="btn-view active"
+                                    data-container="toggle-11"
+                                >
+                                    <i
+                                        class="fa fa-caret-down"
+                                        aria-hidden="true"
+                                    ></i
+                                    >View More
+                                </span>
+                            </div>
+                        </div>
+                        <div class="item point-item" style="margin-top: 20px">
+                            <div class="title">
+                                <h1>Kỹ năng</h1>
+                                <i class="ic-tools-2"></i>
+                            </div>
+                            <div
+                                class="wrap-content view-content"
+                                id="toggle-12"
+                            >
+                                <div class="content-point">
+                                    <p>Wordpress CMS: Junior</p>
+                                    <div class="point">
+                                        <span class="active"></span>
+                                        <span class="active"></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="content-point">
+                                    <p>Laravel framework: fundamental</p>
+                                    <div class="point">
+                                        <span class="active"></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="content-point">
+                                    <p>Bootstrap: Junior</p>
+                                    <div class="point">
+                                        <span class="active"></span>
+                                        <span class="active"></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="content-point">
+                                    <p>HTML/CSS: Junior</p>
+                                    <div class="point">
+                                        <span class="active"></span>
+                                        <span class="active"></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="content-point">
+                                    <p>Javascrip: Junior</p>
+                                    <div class="point">
+                                        <span class="active"></span>
+                                        <span class="active"></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- add block btn view -->
+                            <div class="wrap-view">
+                                <span
+                                    class="btn-view active"
+                                    data-container="toggle-12"
+                                >
+                                    <i
+                                        class="fa fa-caret-down"
+                                        aria-hidden="true"
+                                    ></i
+                                    >View More
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- certificate -->
+            <section id="certificate" class="bg-grey">
+                <div class="container">
+                    <h1 class="section-title">Chứng chỉ - Giải thưởng</h1>
+                    <div class="list-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="./images/Cert_WEB.png" alt="images" />
+                            </div>
+                            <div class="desc">
+                                <h4>Chứng chỉ lập trình web - funix</h4>
+                                <p>- Chứng chỉ thuộc chương trình CCDN</p>
+                                <p>- GPA: 9.0</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="./images/Cert_PRF.png" alt="images" />
+                            </div>
+                            <div class="desc">
+                                <h4>Chứng chỉ lập trình javascrip - funix</h4>
+                                <p>- Chứng chỉ thuộc chương trình CCDN</p>
+                                <p>- GPA: 9.0</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="./images/Cert_DBI.png" alt="images" />
+                            </div>
+                            <div class="desc">
+                                <h4>Chứng chỉ lập trình java - funix</h4>
+                                <p>- Chứng chỉ thuộc chương trình CCDN</p>
+                                <p>- GPA: 9.0</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- project -->
+            <section id="project">
+                <div class="container">
+                    <h1 class="section-title">Dự án</h1>
+                    <div class="wrap-list">
+                        <div class="wrap-project">
+                            <div class="project-item">
+                                <div class="thumb">
+                                    <a target="_blank" href="./digital-cv.html"
+                                        ><img
+                                            src="./images/project-1.png"
+                                            alt="images"
+                                    /></a>
+                                </div>
+                                <div class="desc">
+                                    <div class="name-project">
+                                        <a
+                                            target="_blank"
+                                            href="./digital-cv.html"
+                                            >Tour du lịch châu á</a
+                                        >
+                                    </div>
+                                    <ul class="list-position">
+                                        <li class="time"><span>2021</span></li>
+                                        <li class="cus-po">
+                                            <i class="icon-user-1"></i>
+                                            <span>Customer</span>
+                                        </li>
+                                        <li class="cus-po">
+                                            <i class="icon-lamp"></i>
+                                            <span>Developer</span>
+                                        </li>
+                                    </ul>
+                                    <table class="table">
+                                        <tr>
+                                            <td>Mô tả</td>
+                                            <td>
+                                                Đây là trang web hướng dẫn du
+                                                lịch các nước trong Châu Á. Và
+                                                giới thiệu các tour hiện có
+                                                trong công ty.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Nhiệm vụ</td>
+                                            <td>
+                                                - Xây dựng website theo yêu cầu.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Công nghệ</td>
+                                            <td>
+                                                - Laravel, HTML/CSS, Bootstrap,
+                                                Jquery.
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap-project">
+                            <div class="project-item">
+                                <div class="thumb">
+                                    <a target="_blank" href="./digital-cv.html"
+                                        ><img
+                                            src="./images/project-2.png"
+                                            alt="images"
+                                    /></a>
+                                </div>
+                                <div class="desc">
+                                    <div class="name-project">
+                                        <a
+                                            target="_blank"
+                                            href="./digital-cv.html"
+                                            >Website sản phẩm công nghệ</a
+                                        >
+                                    </div>
+                                    <ul class="list-position">
+                                        <li class="time"><span>2020</span></li>
+                                        <li class="cus-po">
+                                            <i class="icon-user-1"></i>
+                                            <span>Customer</span>
+                                        </li>
+                                        <li class="cus-po">
+                                            <i class="icon-lamp"></i>
+                                            <span>Developer</span>
+                                        </li>
+                                    </ul>
+                                    <table class="table">
+                                        <tr>
+                                            <td>Mô tả</td>
+                                            <td>
+                                                Đây là hệ thống giới thiệu và
+                                                kinh doanh sản phẩm công nghệ.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Nhiệm vụ</td>
+                                            <td>
+                                                - Xây dựng website theo yêu cầu.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Công nghệ</td>
+                                            <td>
+                                                - Wordpress, HTML/CSS,
+                                                Bootstrap, Jquery.
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap-project">
+                            <div class="project-item">
+                                <div class="thumb">
+                                    <a target="_blank" href="./digital-cv.html"
+                                        ><img
+                                            src="./images/project-3.png"
+                                            alt="images"
+                                    /></a>
+                                </div>
+                                <div class="desc">
+                                    <div class="name-project">
+                                        <a
+                                            target="_blank"
+                                            href="./digital-cv.html"
+                                            >Web site kinh doanh sản phẩm
+                                            sạch</a
+                                        >
+                                    </div>
+                                    <ul class="list-position">
+                                        <li class="time"><span>2021</span></li>
+                                        <li class="cus-po">
+                                            <i class="icon-user-1"></i>
+                                            <span>Customer</span>
+                                        </li>
+                                        <li class="cus-po">
+                                            <i class="icon-lamp"></i>
+                                            <span>Developer</span>
+                                        </li>
+                                    </ul>
+                                    <table class="table">
+                                        <tr>
+                                            <td>Mô tả</td>
+                                            <td>
+                                                Đây là hệ thống giới thiệu và
+                                                kinh doanh sản phẩm thân thiện
+                                                môi trường.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Nhiệm vụ</td>
+                                            <td>
+                                                - Xây dựng website theo yêu cầu.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Công nghệ</td>
+                                            <td>
+                                                - Wordpress, HTML/CSS,
+                                                Bootstrap, Jquery.
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer -->
+            <section id="footer" class="bg-grey">
+                <div class="container">
+                    <ul>
+                        <li><i class="icon-facebook-circled"></i>Facebook</li>
+                        <li><i class="icon-linkedin-circled"></i>Linkedin</li>
+                        <li><i class="icon-github-circled"></i>Github</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <!-- Scripts -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

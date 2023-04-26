@@ -1,0 +1,139 @@
+@media only screen and (max-width: 480px) {
+    /* banner */
+    #banner {
+        height: 350px;
+    }
+    #banner .desc h1 {
+        font-size: 25px;
+        line-height: 31px;
+    }
+    /* nav bar */
+    #nav-bar .wrap .left {
+        padding-right: 15px;
+    }
+    #nav-bar .wrap .right {
+        padding-left: 15px;
+    }
+    #nav-bar a {
+        padding: 10px 10px;
+    }
+    /* about */
+    #about .container {
+        display: inline-block;
+    }
+    /* job info */
+    #job-info .mobile-devices {
+        display: inline-block;
+    }
+    #job-info .item {
+        padding: 20px 25px 50px;
+    }
+    #job-info .item .title i {
+        font-size: 35px;
+        text-align: right;
+    }
+    .btn-view {
+        left: 25px;
+        font-size: 14px;
+    }
+    #job-info .mobile-devices .col-12:first-child {
+        margin-bottom: 20px;
+    }
+    /* certificate */
+    #certificate .list-item {
+        display: inline-block;
+    }
+    #certificate .list-item .item:nth-child(2n):before {
+        display: none;
+    }
+    #certificate .list-item {
+        padding: 0 15px;
+    }
+    #certificate .list-item .item {
+        padding: 0 0 35px;
+    }
+    /* project */
+    #project .wrap-list .wrap-project {
+        width: 100%;
+    }
+    #project .project-item .table tr td:first-child {
+        width: 90px;
+    }
+    #project .project-item .list-position li:last-child {
+        padding-left: 0;
+    }
+    #project .project-item .list-position {
+        padding: 15px 15px 5px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    /* nav bar */
+    #nav-bar {
+        text-align: left;
+    }
+    #nav-bar .wrap {
+        display: inline-block;
+        padding: 20px 20px;
+    }
+    #nav-bar a {
+        display: inline-block;
+        width: 100%;
+        border-left: none;
+    }
+    #nav-bar a:last-child {
+        border-right: none;
+    }
+    #nav-bar .wrap .left {
+        padding-right: 0;
+    }
+    #nav-bar .wrap .right {
+        padding-left: 0;
+    }
+    /* footer */
+    #footer li i {
+        font-size: 25px;
+    }
+    /* digtal cv page */
+    .scopes-digital .content-item .scopes-infor h4 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+}
+@media only screen and (max-width: 384px) {
+    /* banner */
+    #banner {
+        height: 300px;
+    }
+    /* digital vc page */
+    .team-digital .member .thumb i {
+        font-size: 25px;
+    }
+    .primary-digital .prioritize .thumb i {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    /* footer */
+    #footer li {
+        margin-right: 15px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    /* project */
+    #project .project-item .list-position li {
+        display: block;
+    }
+    #project .project-item .list-position li:last-child {
+        margin-bottom: 10px;
+    }
+    /* footer */
+    #footer li i {
+        font-size: 20px;
+    }
+    #footer li {
+        margin-right: 10px;
+    }
+    #footer .container {
+        padding: 20px 10px;
+    }
+}

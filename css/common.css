@@ -1,0 +1,4 @@
+@import url(./style.css);
+@import url(./responsive/laptop.css);
+@import url(./responsive/tablet.css);
+@import url(./responsive/mobile.css);
